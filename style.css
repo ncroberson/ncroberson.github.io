@@ -3,12 +3,15 @@
 body
 {
   background-color: rgb(51, 204, 255);
-  font: arial, sans-serif;
   color: white;
-
 }
 
+* {  font-family: arial;}
+
+.images { overflow: hidden;}
+
 nav { border: 5px solid black;
+      padding: 3px;
       background-color: white;}
 
 a:hover { color: red; }
@@ -22,5 +25,5 @@ ul { list-style-type: square;}
 .name
 {
   font: times, serif;
-  color: grey;
+  color: blue;
 }
