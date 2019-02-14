@@ -8,6 +8,11 @@ body
 
 }
 
+nav { border: 5px solid black;
+      background-color: white;}
+
+a:hover { color: red; }
+
 p:nth-of-type(even){ background-color: black;}
 p:nth-of-type(odd){ background-color: grey;}
 
